@@ -1,0 +1,310 @@
+--------------------------------------------------------------------------
+Date: 2021-02-02 13:41:58.453381
+Variance threshold: 0
+Model name: LogisticRegression
+Model parameters: {'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+Model score on the train set : 0.5278123214465769
+Model score on the test set : 0.5248033877797943
+Model log loss on the train set: 1.6286534758997557
+Model log loss on the test set: 1.632595720373169
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 13:42:51.929515
+Variance threshold: 0
+Model name: XGBClassifier
+Model parameters: {'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': None, 'booster': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'gamma': None, 'gpu_id': None, 'importance_type': 'gain', 'interaction_constraints': None, 'learning_rate': None, 'max_delta_step': None, 'max_depth': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Model score on the train set : 0.8903639969078748
+Model score on the test set : 0.8366606170598911
+Model log loss on the train set: 1.099005128067894
+Model log loss on the test set: 1.1769620544491417
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 13:43:06.865076
+Variance threshold: 0
+Model name: DecisionTreeClassifier
+Model parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'presort': 'deprecated', 'random_state': None, 'splitter': 'best'}
+Model score on the train set : 0.9991933586529089
+Model score on the test set : 0.7983464408146804
+Model log loss on the train set: 0.902396916186677
+Model log loss on the test set: 4.525615966967459
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 13:44:29.108554
+Variance threshold: 0
+Model name: RandomForestClassifier
+Model parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+Model score on the train set : 0.999361408933553
+Model score on the test set : 0.8443234523089332
+Model log loss on the train set: 0.9872732787420379
+Model log loss on the test set: 1.2133881004733336
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 13:54:31.388280
+Variance threshold: 0.05
+Model name: LogisticRegression
+Model parameters: {'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+Model score on the train set : 0.5502302288844823
+Model score on the test set : 0.55837870538415
+Model log loss on the train set: 1.579316055322221
+Model log loss on the test set: 1.5707031022673075
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 13:55:08.478362
+Variance threshold: 0.05
+Model name: XGBClassifier
+Model parameters: {'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': None, 'booster': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'gamma': None, 'gpu_id': None, 'importance_type': 'gain', 'interaction_constraints': None, 'learning_rate': None, 'max_delta_step': None, 'max_depth': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Model score on the train set : 0.8864316203408059
+Model score on the test set : 0.8379713651945957
+Model log loss on the train set: 1.1022457471477973
+Model log loss on the test set: 1.174792132413991
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 13:55:21.867601
+Variance threshold: 0.05
+Model name: DecisionTreeClassifier
+Model parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'presort': 'deprecated', 'random_state': None, 'splitter': 'best'}
+Model score on the train set : 0.9991933586529089
+Model score on the test set : 0.8000604960677556
+Model log loss on the train set: 0.9027920030161152
+Model log loss on the test set: 4.553028801703601
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 13:56:48.345419
+Variance threshold: 0.05
+Model name: RandomForestClassifier
+Model parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+Model score on the train set : 0.999025308372265
+Model score on the test set : 0.8570276265376083
+Model log loss on the train set: 0.9886506705294104
+Model log loss on the test set: 1.1954899497343618
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 13:58:16.621544
+Variance threshold: 0.1
+Model name: LogisticRegression
+Model parameters: {'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+Model score on the train set : 0.5338957416058885
+Model score on the test set : 0.5268199233716475
+Model log loss on the train set: 1.6103052436272545
+Model log loss on the test set: 1.6187550314674517
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 13:58:59.035099
+Variance threshold: 0.1
+Model name: XGBClassifier
+Model parameters: {'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': None, 'booster': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'gamma': None, 'gpu_id': None, 'importance_type': 'gain', 'interaction_constraints': None, 'learning_rate': None, 'max_delta_step': None, 'max_depth': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Model score on the train set : 0.8053977750142842
+Model score on the test set : 0.759931437789877
+Model log loss on the train set: 1.199455197256765
+Model log loss on the test set: 1.270827110820807
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 13:59:12.670320
+Variance threshold: 0.1
+Model name: DecisionTreeClassifier
+Model parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'presort': 'deprecated', 'random_state': None, 'splitter': 'best'}
+Model score on the train set : 0.9992605787651665
+Model score on the test set : 0.7375478927203065
+Model log loss on the train set: 0.9009826844451831
+Model log loss on the test set: 6.141588603028676
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 14:00:40.241915
+Variance threshold: 0.1
+Model name: RandomForestClassifier
+Model parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+Model score on the train set : 0.9991261385406514
+Model score on the test set : 0.7929017947166768
+Model log loss on the train set: 0.9936982724681637
+Model log loss on the test set: 1.2805935242626625
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 14:12:12.898766
+Variance threshold: 0.15
+Model name: LogisticRegression
+Model parameters: {'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+Model score on the train set : 0.7070547507814338
+Model score on the test set : 0.6964105666465014
+Model log loss on the train set: 1.3512149285420532
+Model log loss on the test set: 1.3810809922003813
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 14:12:51.670065
+Variance threshold: 0.15
+Model name: XGBClassifier
+Model parameters: {'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': None, 'booster': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'gamma': None, 'gpu_id': None, 'importance_type': 'gain', 'interaction_constraints': None, 'learning_rate': None, 'max_delta_step': None, 'max_depth': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Model score on the train set : 0.7971633112627298
+Model score on the test set : 0.7559991933857633
+Model log loss on the train set: 1.2042357374588013
+Model log loss on the test set: 1.296393203153383
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 14:13:01.840757
+Variance threshold: 0.15
+Model name: DecisionTreeClassifier
+Model parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'presort': 'deprecated', 'random_state': None, 'splitter': 'best'}
+Model score on the train set : 0.9991933586529089
+Model score on the test set : 0.7319015930631175
+Model log loss on the train set: 0.8987606586125666
+Model log loss on the test set: 6.255503546655107
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 14:14:24.960034
+Variance threshold: 0.15
+Model name: RandomForestClassifier
+Model parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+Model score on the train set : 0.9989244782038786
+Model score on the test set : 0.8018753781004234
+Model log loss on the train set: 0.9835036925815779
+Model log loss on the test set: 1.3076298839124818
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 14:15:37.876034
+Variance threshold: 0.25
+Model name: LogisticRegression
+Model parameters: {'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+Model score on the train set : 0.7097435552717373
+Model score on the test set : 0.7060899374873967
+Model log loss on the train set: 1.3609962371179247
+Model log loss on the test set: 1.3671262330939353
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 14:16:21.592659
+Variance threshold: 0.25
+Model name: XGBClassifier
+Model parameters: {'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': None, 'booster': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'gamma': None, 'gpu_id': None, 'importance_type': 'gain', 'interaction_constraints': None, 'learning_rate': None, 'max_delta_step': None, 'max_depth': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Model score on the train set : 0.7881894262763419
+Model score on the test set : 0.7504537205081669
+Model log loss on the train set: 1.224918671415352
+Model log loss on the test set: 1.29472487443939
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 14:16:31.307640
+Variance threshold: 0.25
+Model name: DecisionTreeClassifier
+Model parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'presort': 'deprecated', 'random_state': None, 'splitter': 'best'}
+Model score on the train set : 0.9991261385406514
+Model score on the test set : 0.7141560798548094
+Model log loss on the train set: 0.8991574062638961
+Model log loss on the test set: 6.812886395198814
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 14:17:58.128317
+Variance threshold: 0.25
+Model name: RandomForestClassifier
+Model parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+Model score on the train set : 0.9991261385406514
+Model score on the test set : 0.778584392014519
+Model log loss on the train set: 0.9870529565056041
+Model log loss on the test set: 1.3919128652720942
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 14:38:04.589743
+Variance threshold: 0.25
+Model name: LogisticRegression
+Model parameters: {'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+Model score on the train set : 0.7067522602762747
+Model score on the test set : 0.7034684412179875
+Model log loss on the train set: 1.3543427109235526
+Model log loss on the test set: 1.3784593350897594
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 14:54:50.937523
+Variance threshold: 0.25
+Model name: XGBClassifier
+Model parameters: {'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': None, 'booster': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'gamma': 0.3, 'gpu_id': None, 'importance_type': 'gain', 'interaction_constraints': None, 'learning_rate': 0.2, 'max_delta_step': None, 'max_depth': 9, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.01, 'reg_lambda': None, 'scale_pos_weight': None, 'subsample': 1, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Model score on the train set : 0.8671394481228784
+Model score on the test set : 0.77445049405122
+Model log loss on the train set: 1.1150166919357274
+Model log loss on the test set: 1.2547425759464157
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 14:59:05.533100
+Variance threshold: 0.05
+Model name: XGBClassifier
+Model parameters: {'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': None, 'booster': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'gamma': 0.3, 'gpu_id': None, 'importance_type': 'gain', 'interaction_constraints': None, 'learning_rate': 0.2, 'max_delta_step': None, 'max_depth': 9, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.01, 'reg_lambda': None, 'scale_pos_weight': None, 'subsample': 1, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Model score on the train set : 0.9581890901757806
+Model score on the test set : 0.8626739261947973
+Model log loss on the train set: 0.9895780481291323
+Model log loss on the test set: 1.1427601394531965
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 15:11:02.393374
+Variance threshold: 0.01
+Model name: LogisticRegression
+Model parameters: {'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+Model score on the train set : 0.5843444358552079
+Model score on the test set : 0.577939100625126
+Model log loss on the train set: 1.5512859114707827
+Model log loss on the test set: 1.5621358412055177
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 15:11:43.053461
+Variance threshold: 0.01
+Model name: XGBClassifier
+Model parameters: {'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': None, 'booster': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': None, 'gamma': None, 'gpu_id': None, 'importance_type': 'gain', 'interaction_constraints': None, 'learning_rate': None, 'max_delta_step': None, 'max_depth': None, 'min_child_weight': None, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 100, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': None, 'reg_lambda': None, 'scale_pos_weight': None, 'subsample': None, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Model score on the train set : 0.8895909656169125
+Model score on the test set : 0.8399879007864489
+Model log loss on the train set: 1.097310612252111
+Model log loss on the test set: 1.1755356473338359
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 15:11:56.882965
+Variance threshold: 0.01
+Model name: DecisionTreeClassifier
+Model parameters: {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'presort': 'deprecated', 'random_state': None, 'splitter': 'best'}
+Model score on the train set : 0.9991933586529089
+Model score on the test set : 0.7978423069167171
+Model log loss on the train set: 0.9019612317352972
+Model log loss on the test set: 4.6842834886735005
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 15:13:24.554210
+Variance threshold: 0.01
+Model name: RandomForestClassifier
+Model parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+Model score on the train set : 0.9991933586529089
+Model score on the test set : 0.8490623109497882
+Model log loss on the train set: 0.9870526507797155
+Model log loss on the test set: 1.2150498099963227
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-02 15:21:35.056410
+Variance threshold: 0.01
+Model name: XGBClassifier
+Model parameters: {'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': None, 'booster': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.8, 'gamma': 0.3, 'gpu_id': None, 'importance_type': 'gain', 'interaction_constraints': None, 'learning_rate': 0.2, 'max_delta_step': None, 'max_depth': 9, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 300, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.01, 'reg_lambda': None, 'scale_pos_weight': None, 'subsample': 1, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Model score on the train set : 0.9576513292777199
+Model score on the test set : 0.8599516031457956
+Model log loss on the train set: 0.9910693244492087
+Model log loss on the test set: 1.1509154559807715
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-06 11:10:13.150477
+Variance threshold: 0.01
+Model name: XGBClassifier
+Model parameters: {'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': None, 'booster': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.7, 'gamma': 0.4, 'gpu_id': None, 'importance_type': 'gain', 'interaction_constraints': None, 'learning_rate': 0.2, 'max_delta_step': None, 'max_depth': 9, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 350, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.0001, 'reg_lambda': None, 'scale_pos_weight': None, 'subsample': 1, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Model score on the train set : 0.9772123819446779
+Model score on the test set : 0.8680177455132083
+Model log loss on the train set: 0.964324497911218
+Model log loss on the test set: 1.1380422710193492
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-06 11:27:00.845474
+Variance threshold: 0.05
+Model name: XGBClassifier
+Model parameters: {'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': None, 'booster': None, 'colsample_bylevel': None, 'colsample_bynode': None, 'colsample_bytree': 0.7, 'gamma': 0.4, 'gpu_id': None, 'importance_type': 'gain', 'interaction_constraints': None, 'learning_rate': 0.2, 'max_delta_step': None, 'max_depth': 9, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': None, 'n_estimators': 350, 'n_jobs': None, 'num_parallel_tree': None, 'random_state': None, 'reg_alpha': 0.0001, 'reg_lambda': None, 'scale_pos_weight': None, 'subsample': 1, 'tree_method': None, 'validate_parameters': None, 'verbosity': None}
+Model score on the train set : 0.9772123819446779
+Model score on the test set : 0.8663036902601331
+Model log loss on the train set: 0.9723342956014629
+Model log loss on the test set: 1.112175725367252
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Date: 2021-02-06 11:45:23.386784
+Variance threshold: 0.01
+Model name: CatBoostClassifier
+Model parameters: {'iterations': 350, 'learning_rate': 0.2, 'depth': 9, 'rsm': 0.7, 'custom_loss': 'Logloss', 'subsample': 1, 'reg_lambda': 0.0001}
+Model score on the train set : 0.9940174100090747
+Model score on the test set : 0.8599516031457956
+Model log loss on the train set: 0.952518941506219
+Model log loss on the test set: 1.2816343644144736
+--------------------------------------------------------------------------
